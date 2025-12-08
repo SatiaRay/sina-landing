@@ -6,7 +6,7 @@ const items = [
   { href: "#features", label: "امکانات" },
   { href: "#screenshots", label: "عکس‌ها" },
   { href: "#process", label: "فرآیند" },
-  { href: "#pricing", label: "قیمت گذاری" },
+  { href: "#pricing", label: "قیمت‌گذاری" },
   { href: "#contact", label: "تماس با ما" },
 ];
 
@@ -18,7 +18,16 @@ export default function Navbar() {
     const onScroll = () => setScrolled(window.scrollY > 10);
     onScroll();
     window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+
+    const onResize = () => {
+      if (window.innerWidth >= 992) setOpen(false);
+    };
+    window.addEventListener("resize", onResize);
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onResize);
+    };
   }, []);
 
   const handleClick = (href: string) => (e: React.MouseEvent) => {
@@ -31,20 +40,26 @@ export default function Navbar() {
   return (
     <header className="header" style={{ display: "block" }}>
       <nav
-        className="navbar navbar-expand-lg fixed-top"
+        className={`navbar navbar-expand-lg fixed-top ${open ? "nav-open" : ""}`}
         style={{
           zIndex: 999999,
           background: scrolled ? "#fff" : "transparent",
           boxShadow: scrolled ? "0 2px 12px rgba(0,0,0,0.08)" : "none",
-          minHeight: 72,
+          minHeight: 80,
+          transition: "all .2s ease",
         }}
       >
         <div className="container">
-          <a className="navbar-brand" href="/" style={{ display: "flex", alignItems: "center" }}>
+          <a
+            className="navbar-brand"
+            href="/"
+            style={{ display: "flex", alignItems: "center" }}
+            onClick={() => setOpen(false)}
+          >
             <img
               src={scrolled ? "/assets/img/logo-color.png" : "/assets/img/logo-white.png"}
               alt="Sina AI"
-              style={{ height: 34 }}
+              style={{ height: 36 }}
             />
           </a>
 
@@ -61,15 +76,19 @@ export default function Navbar() {
             />
           </button>
 
-          <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
-            <ul className="navbar-nav ms-auto menu align-items-lg-center">
+          <div className={`navbar-collapse ${open ? "show" : ""}`}>
+            <ul className="navbar-nav ms-auto menu align-items-lg-center nav-menu">
               {items.map((it) => (
                 <li className="nav-item" key={it.href}>
                   <a
                     className="nav-link page-scroll"
                     href={it.href}
                     onClick={handleClick(it.href)}
-                    style={{ color: scrolled ? "#111" : "#fff" }}
+                    style={{
+                      color: scrolled ? "#111" : "#fff",
+                      padding: "8px 12px",
+                      fontWeight: 500,
+                    }}
                   >
                     {it.label}
                   </a>
@@ -77,17 +96,19 @@ export default function Navbar() {
               ))}
 
               <li className="nav-item ms-lg-3 mt-3 mt-lg-0">
-                <a href="/register" className="btn btn-brand-02 btn-rounded w-100 w-lg-auto">
+                <a href="/register" className="btn nav-cta nav-cta-primary">
                   شروع رایگان
                 </a>
               </li>
+
               <li className="nav-item ms-lg-2 mt-2 mt-lg-0">
-                <a href="/login" className="btn btn-outline-brand-02 btn-rounded w-100 w-lg-auto">
+                <a href="/login" className="btn nav-cta nav-cta-outline">
                   ورود
                 </a>
               </li>
+
               <li className="nav-item ms-lg-2 mt-2 mt-lg-0">
-                <a href="/demo" className="btn btn-white btn-rounded w-100 w-lg-auto">
+                <a href="/demo" className="btn nav-cta nav-cta-ghost">
                   دمو زنده
                 </a>
               </li>
