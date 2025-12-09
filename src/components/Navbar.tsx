@@ -76,7 +76,7 @@ export default function Navbar() {
             />
           </button>
 
-          <div className={`navbar-collapse ${open ? "show" : ""}`}>
+          <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
             <ul className="navbar-nav ms-auto menu align-items-lg-center nav-menu">
               {items.map((it) => (
                 <li className="nav-item" key={it.href}>

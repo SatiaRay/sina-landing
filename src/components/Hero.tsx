@@ -20,7 +20,7 @@ export default function Hero() {
                   Sina AI — دستیار هوشمند کسب‌وکار شما
                 </h1>
                 <p className="lead">
-                  با سینا AI در چند دقیقه چت‌بات و دستیارهای سفارشی بسازید، به
+                  با سینا در چند دقیقه چت‌بات و دستیارهای سفارشی بسازید، به
                   داده‌های خودتان وصل کنید و تجربه مشتریان را متحول کنید.
                 </p>
   
@@ -38,7 +38,7 @@ export default function Hero() {
                   >
                     <i className="fas fa-play"></i>
                   </a>
-                  <span className="ps-2">دمو زنده</span>
+                  <span className="ps-2">دموی زنده</span>
                 </div>
   
                 <div className="hero-counter mt-4">

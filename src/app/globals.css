@@ -47,3 +47,44 @@ body {
   display: flex !important;
   align-items: center !important;
 }
+
+/* ===== Navbar mobile fixes ===== */
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    display: none !important;
+  }
+  .navbar .navbar-collapse.show {
+    display: block !important;
+  }
+
+  .navbar .nav-menu {
+    width: 100%;
+    margin: 12px auto 0 auto !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .navbar .nav-menu .nav-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar .nav-menu .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 10px 0 !important;
+    display: inline-block;
+  }
+
+  .navbar .nav-menu .nav-cta {
+    width: calc(100% - 32px);
+    max-width: 320px;
+    margin: 6px auto 0 auto !important;
+    display: flex !important;
+    justify-content: center;
+  }
+}
