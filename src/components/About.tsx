@@ -137,31 +137,36 @@ export default function About() {
       </section>
 
       <section className="position-relative feature-section ptb-100">
-        <div className="container">
-          <div className="row align-items-center justify-content-between justify-content-sm-center justify-content-md-center">
-            <div className="col-sm-5 col-md-6 col-lg-6 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
-              <div className="download-img">
+        <div className="max-w-screen-2xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-20 2xl:px-32">
+          <div className="row align-items-center justify-content-between g-0">
+            <div className="col-12 col-lg-6 mb-10 mb-lg-0">
+              <div className="text-center text-lg-end">
                 <img
                   src="/assets/img/about-us.png"
-                  alt="دانلود"
+                  alt="ساخت دستیار هوشمند با سینا AI"
                   className="img-fluid"
+                  style={{
+                    maxWidth: '100%',
+                    height: 'auto',
+                    borderRadius: '20px',
+                  }}
                 />
               </div>
             </div>
 
-            <div className="col-md-12 col-lg-6">
-              <div className="feature-contents">
-                <h2>به راحتی دستیارهای هوشمند بسازید</h2>
-                <p>
-                  سینا AI ابزارهای آماده‌ای برای ساخت، تست و دیپلوی چت‌بات و
-                  دستیارهای سازمانی دارد.
+            <div className="col-12 col-lg-6">
+              <div style={{ paddingRight: '100px', paddingLeft: '20px' }}>
+                <h2 className="mb-5 text-4xl lg:text-5xl font-bold leading-tight">
+                  به راحتی دستیارهای هوشمند بسازید
+                </h2>
+                <p className="text-lg lg:text-xl text-gray-700 mb-5 leading-relaxed">
+                  سینا AI ابزارهای آماده‌ای برای ساخت، تست و دیپلوی چت‌بات و دستیارهای سازمانی دارد.
                 </p>
-                <p>
-                  همه چیز به‌صورت drag & drop قابل ساختن است؛ از سناریوهای ساده
-                  تا اتوماسیون‌های پیچیده.
+                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                  همه چیز به‌صورت drag & drop قابل ساختن است؛ از سناریوهای ساده تا اتوماسیون‌های پیچیده.
                 </p>
 
-                <ul className="dot-circle pt-2">
+                <ul className="dot-circle space-y-4 mb-10 text-lg">
                   <li>بدون نیاز به کدنویسی</li>
                   <li>قابل یادگیری برای تیم‌های غیر فنی</li>
                   <li>اتصال به منابع داده شما</li>
