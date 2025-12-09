@@ -62,8 +62,8 @@ export default function About() {
                 </div>
               </div>
   
-              <div className="col-sm-5 col-md-5 col-lg-4">
-                <div className="about-content-right">
+              <div className="col-sm-5 col-md-5 col-lg-4 d-flex justify-content-center">
+                <div className="about-content-right text-center">
                   <img
                     src="/assets/img/app-mobile-image-2.png"
                     alt="درباره ما"

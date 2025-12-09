@@ -12,10 +12,10 @@ export default function Hero() {
           }}
         ></div>
   
-        <div className="container">
+        <div className="container text-center">
           <div className="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
             <div className="col-md-12 col-lg-6">
-              <div className="hero-slider-content text-white py-5">
+              <div className="hero-slider-content text-white pt-5">
                 <h1 className="text-white">
                   Sina AI — دستیار هوشمند کسب‌وکار شما
                 </h1>
@@ -42,13 +42,11 @@ export default function Hero() {
                 </div>
   
                 <div className="hero-counter mt-4">
-                  <div className="row">
-                    <div className="col-6 col-sm-4">
-                      <div className="counter-item d-flex align-items-center py-3">
-                        <div className="single-counter-item">
-                          <span className="h4 count-number text-white">
-                            61,172
-                          </span>
+                  <div className="row justify-content-center text-center">
+                    <div className="col-6 col-sm-4 col-lg-3">
+                      <div className="counter-item d-flex align-items-center justify-content-center py-3">
+                        <div className="single-counter-item text-center">
+                          <span className="h4 count-number text-white d-block">61,172</span>
                           <h6 className="text-white mb-0">نصب‌ها</h6>
                         </div>
                         <span className="color-6 ms-2 p-2 rounded-circle">
@@ -56,13 +54,11 @@ export default function Hero() {
                         </span>
                       </div>
                     </div>
-  
-                    <div className="col-6 col-sm-4">
-                      <div className="counter-item d-flex align-items-center py-3">
-                        <div className="single-counter-item">
-                          <span className="h4 count-number text-white">
-                            143,870
-                          </span>
+
+                    <div className="col-6 col-sm-4 col-lg-3">
+                      <div className="counter-item d-flex align-items-center justify-content-center py-3">
+                        <div className="single-counter-item text-center">
+                          <span className="h4 count-number text-white d-block">143,870</span>
                           <h6 className="text-white mb-0">گفتگوها</h6>
                         </div>
                         <span className="color-6 ms-2 p-2 rounded-circle">
@@ -70,13 +66,11 @@ export default function Hero() {
                         </span>
                       </div>
                     </div>
-  
-                    <div className="col-6 col-sm-4">
-                      <div className="counter-item d-flex align-items-center py-3">
-                        <div className="single-counter-item">
-                          <span className="h4 count-number text-white">
-                            31,191
-                          </span>
+
+                    <div className="col-6 col-sm-4 col-lg-3">
+                      <div className="counter-item d-flex align-items-center justify-content-center py-3">
+                        <div className="single-counter-item text-center">
+                          <span className="h4 count-number text-white d-block">31,191</span>
                           <h6 className="text-white mb-0">کاربران فعال</h6>
                         </div>
                         <span className="color-6 ms-2 p-2 rounded-circle">
@@ -89,8 +83,8 @@ export default function Hero() {
               </div>
             </div>
   
-            <div className="col-md-6 col-sm-6 col-lg-5">
-              <div className="img-wrap">
+            <div className="col-md-6 col-sm-6 col-lg-5 d-flex justify-content-center">
+              <div className="img-wrap text-center">
                 <img
                   src="/assets/img/app-mobile-image.png"
                   alt="تصویر اپ"
@@ -99,9 +93,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          {/* end row */}
         </div>
-        {/* end container */}
       </section>
     );
   }  

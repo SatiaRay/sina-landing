@@ -43,7 +43,7 @@ export default function Footer() {
                 <p>
                   Sina AI پلتفرم ساخت دستیارهای هوشمند برای کسب‌وکارها.
                 </p>
-                <div className="list-inline social-list-default background-color social-hover-2 mt-2">
+                <div className="list-inline social-list-default background-color social-hover-2 mt-2 text-center">
                   <li className="list-inline-item">
                     <a className="twitter" href="#"><i className="fab fa-twitter"></i></a>
                   </li>
@@ -53,14 +53,12 @@ export default function Footer() {
                 </div>
               </div>
   
-              <div className="col-md-12 col-lg-8">
+              <div className="col-md-12 col-lg-8 text-center">
                 <div className="row mt-0">
                   <div className="col-sm-6 col-md-3 col-lg-3 mb-4">
                     <h6 className="text-uppercase">منابع</h6>
                     <ul>
-                      <li><a href="#">مستندات</a></li>
                       <li><a href="#">راهنما</a></li>
-                      <li><a href="#">وبلاگ</a></li>
                     </ul>
                   </div>
   
@@ -83,10 +81,6 @@ export default function Footer() {
   
                   <div className="col-sm-6 col-md-3 col-lg-3">
                     <h6 className="text-uppercase">پشتیبانی</h6>
-                    <ul>
-                      <li><a href="#faq">سوالات متداول</a></li>
-                      <li><a href="#contact">پشتیبانی</a></li>
-                    </ul>
                   </div>
                 </div>
               </div>
