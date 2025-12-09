@@ -52,7 +52,7 @@ export default function Contact() {
                     </div>
                     <div className="contact-text">
                       <h5 className="mb-1">محل شرکت</h5>
-                      <p>تهران - ونک</p>
+                      <p>اراک - خیابان شهید رجایی - خیابان جنت - کوچه واعظ زاده</p>
                     </div>
                   </li>
   
@@ -62,7 +62,17 @@ export default function Contact() {
                     </div>
                     <div className="contact-text">
                       <h5 className="mb-1">ایمیل</h5>
-                      <p>hello@sina.ai</p>
+                      <p>info@satiaisp.com</p>
+                    </div>
+                  </li>
+
+                  <li className="d-flex pb-3">
+                    <div className="contact-icon me-3">
+                      <span className="fas fa-phone-alt color-primary rounded-circle p-3"></span>
+                    </div>
+                    <div className="contact-text">
+                      <h5 className="mb-1">شماره تماس</h5>
+                      <p dir="ltr">(086)-33805 (10خط)</p>
                     </div>
                   </li>
                 </ul>
