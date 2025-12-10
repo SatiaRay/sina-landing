@@ -51,17 +51,40 @@ export default function Navbar() {
       >
         <div className="container">
           <a
-            className="navbar-brand"
-            href="/"
-            style={{ display: "flex", alignItems: "center" }}
-            onClick={() => setOpen(false)}
+          className="navbar-brand"
+          href="/"
+          style={{ display: "flex", alignItems: "center" }}
+          onClick={() => setOpen(false)}
+        >
+          <span
+            style={{
+              fontSize: 24,
+              fontWeight: 900,
+              letterSpacing: "3.5px",
+              lineHeight: 1,
+              textTransform: "uppercase",
+              color: "#fff",
+              padding: "7px 12px",
+              borderRadius: 12,
+              border: "1.5px solid rgba(255,255,255,0.8)",
+              background:
+                "linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.04))",
+              boxShadow:
+                "0 8px 22px rgba(0,0,0,0.28), inset 0 0 10px rgba(255,255,255,0.12)",
+              backdropFilter: "blur(6px)",
+              WebkitBackdropFilter: "blur(6px)",
+              textShadow: "0 2px 10px rgba(0,0,0,0.35)",
+              transform: "translateY(1px)",
+              transition: "all .2s ease",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: 6,
+            }}
           >
-            <img
-              src="/assets/img/logo-white.png"
-              alt="Sina"
-              style={{ height: 36 }}
-            />
-          </a>
+            SINA AI
+          </span>
+        </a>
 
           <button
             className="navbar-toggler"
@@ -70,10 +93,7 @@ export default function Navbar() {
             aria-label="Toggle navigation"
             onClick={() => setOpen((v) => !v)}
           >
-            <span
-              className="ti-menu"
-              style={{ fontSize: 22, color: "#fff" }}
-            />
+            <span className="ti-menu" style={{ fontSize: 22, color: "#fff" }} />
           </button>
 
           <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
