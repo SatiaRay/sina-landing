@@ -59,7 +59,7 @@ export default function Features() {
               <div className="position-relative pb-md-5 py-lg-0">
                 <img
                   alt="Sina AI"
-                  src="/assets/img/app-mobile-image.png"
+                  src="/assets/img/app-mobile-image-5.png"
                   className="img-center img-fluid"
                 />
               </div>

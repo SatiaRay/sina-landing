@@ -75,9 +75,14 @@ export default function Hero() {
         <div className="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
           <div className="col-md-12 col-lg-6">
             <div className="hero-slider-content text-white pt-5">
-              <h1 className="text-white">
-                Sina AI — دستیار هوشمند کسب‌وکار شما
-              </h1>
+              <div className="flex flex-col items-center justify-center text-center">
+                <h1 className="text-white text-4xl font-bold">
+                  Sina
+                </h1>
+                <h2 className="text-white text-lg mt-2">
+                  دستیار هوشمند کسب‌وکار شما
+                </h2>
+              </div>
               <p className="lead">
                 با سینا در چند دقیقه چت‌بات و دستیارهای سفارشی بسازید، به داده‌های
                 خودتان وصل کنید و تجربه مشتریان را متحول کنید.
