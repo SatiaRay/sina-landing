@@ -62,7 +62,7 @@ export default function Testimonials() {
           <div className="col-md-6 col-lg-5 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
             <div className="testimonial-heading text-white">
               <h2 className="text-white">نظرات درباره سینا</h2>
-              <p>چند جمله از تیمی که Sina AI را ساخته‌اند.</p>
+              <p>چند جمله از تیمی که سینا را ساخته‌اند.</p>
             </div>
           </div>
 

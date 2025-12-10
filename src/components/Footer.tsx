@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="newsletter-content text-white">
                   <h3 className="mb-0 text-white">در خبرنامه ما عضو شوید</h3>
                   <p className="mb-0">
-                    برای دریافت آپدیت‌های Sina AI ایمیل خود را وارد کنید.
+                    برای دریافت آپدیت‌های Sina ایمیل خود را وارد کنید.
                   </p>
                 </div>
               </div>
@@ -41,7 +41,7 @@ export default function Footer() {
                   />
                 </a>
                 <p>
-                  Sina AI پلتفرم ساخت دستیارهای هوشمند برای کسب‌وکارها.
+                  Sina پلتفرم ساخت دستیارهای هوشمند برای کسب‌وکارها.
                 </p>
                 <div className="list-inline social-list-default background-color social-hover-2 mt-2 text-center">
                   <li className="list-inline-item">
@@ -94,7 +94,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-6 col-lg-7">
                 <div className="copyright-wrap small-text">
-                  <p className="mb-0">© Sina AI — کلیه حقوق محفوظ است</p>
+                  <p className="mb-0">© Sina — کلیه حقوق محفوظ است</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-5">

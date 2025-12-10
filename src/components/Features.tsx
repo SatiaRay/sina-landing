@@ -5,7 +5,7 @@ export default function Features() {
           <div className="row justify-content-center">
             <div className="col-md-9 col-lg-9">
               <div className="section-heading text-center mb-5">
-                <h2>ویژگی‌های Sina AI</h2>
+                <h2>ویژگی‌های Sina</h2>
                 <p>
                   هر چیزی که برای ساخت و مدیریت دستیارهای هوشمند نیاز دارید، اینجا
                   آماده است.
@@ -58,7 +58,7 @@ export default function Features() {
             <div className="col-lg-4 col-md-5 d-none d-sm-none d-md-block d-lg-block">
               <div className="position-relative pb-md-5 py-lg-0">
                 <img
-                  alt="Sina AI"
+                  alt="Sina"
                   src="/assets/img/app-mobile-image-5.png"
                   className="img-center img-fluid"
                 />

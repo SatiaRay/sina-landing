@@ -57,8 +57,8 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
           >
             <img
-              src={scrolled ? "/assets/img/logo-color.png" : "/assets/img/logo-white.png"}
-              alt="Sina AI"
+              src="/assets/img/logo-white.png"
+              alt="Sina"
               style={{ height: 36 }}
             />
           </a>
@@ -72,7 +72,7 @@ export default function Navbar() {
           >
             <span
               className="ti-menu"
-              style={{ fontSize: 22, color: scrolled ? "#111" : "#fff" }}
+              style={{ fontSize: 22, color: "#fff" }}
             />
           </button>
 
@@ -85,7 +85,7 @@ export default function Navbar() {
                     href={it.href}
                     onClick={handleClick(it.href)}
                     style={{
-                      color: scrolled ? "#111" : "#fff",
+                      color: "#fff",
                       padding: "8px 12px",
                       fontWeight: 500,
                     }}

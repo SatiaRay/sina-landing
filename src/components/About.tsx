@@ -76,7 +76,7 @@ export default function About() {
           <div className="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
             <div className="col-md-12 col-lg-6 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
               <div className="about-content-left">
-                <h2>Sina AI همه چیز را برای شما هوشمند می‌کند</h2>
+                <h2>Sina همه چیز را برای شما هوشمند می‌کند</h2>
                 <p>
                   با سینا می‌توانید چت‌بات‌های سفارشی، اتوماسیون‌های گفتگومحور و
                   دستیارهای خاص کسب‌وکار خود را بسازید و بدون نیاز به تیم فنی

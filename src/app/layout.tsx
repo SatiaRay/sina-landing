@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Sina AI | هوش مصنوعی سینا",
+  title: "Sina | هوش مصنوعی سینا",
   description: "Sina AI Landing Page",
 };
 
