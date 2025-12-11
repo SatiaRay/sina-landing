@@ -64,11 +64,11 @@ export default function Hero() {
       {showVideo && (
         <div
           className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
-          onClick={() => setShowVideo(false)} 
+          onClick={() => setShowVideo(false)}
         >
           <div
             className="relative w-11/12 md:w-3/4 lg:w-1/2 aspect-video bg-black"
-            onClick={(e) => e.stopPropagation()} 
+            onClick={(e) => e.stopPropagation()}
           >
             <button
               className="absolute top-3 left-3 text-white text-3xl z-[60]"
@@ -78,7 +78,7 @@ export default function Hero() {
             </button>
 
             <video className="w-full h-full" controls autoPlay>
-              <source src="assets/videos/demo.mp4" type="video/mp4" />
+              <source src="/assets/videos/demo.mp4" type="video/mp4" />
               مرورگر شما ویدیو را پشتیبانی نمی‌کند
             </video>
           </div>
@@ -103,15 +103,14 @@ export default function Hero() {
             <div className="col-md-12 col-lg-6">
               <div className="hero-slider-content text-white pt-5">
                 <div className="flex flex-col items-center justify-center text-center">
-                  <h1 className="text-white text-4xl font-bold">Sina</h1>
+                  <h1 className="text-white text-6xl font-bold">سینا</h1>
                   <h2 className="text-white text-lg mt-2">
-                    دستیار هوشمند کسب‌وکار شما
+                    راهنمای هوشمند خدمات اینترنت ساتیا
                   </h2>
                 </div>
 
-                <p className="lead mt-3">
-                  با سینا در چند دقیقه چت‌بات و دستیارهای سفارشی بسازید، به
-                  داده‌های خودتان وصل کنید و تجربه مشتریان را متحول کنید.
+                <p className="mt-6 text-xl text-white max-w-3xl mx-auto leading-relaxed">
+                  سینا چت‌باتی است که می‌تواند به‌صورت هوشمند به سوالات شما درباره خدمات اینترنت ساتیا پاسخ دهد — از انتخاب و مقایسه بسته‌ها تا پیگیری مصرف، پشتیبانی فنی، راهنمای خرید و اطلاع از تراکنش‌ها.
                 </p>
 
                 <div className="action-btns mt-3">
@@ -156,6 +155,7 @@ export default function Hero() {
                     ))}
                   </div>
                 </div>
+
               </div>
             </div>
 
@@ -168,6 +168,7 @@ export default function Hero() {
                 />
               </div>
             </div>
+
           </div>
         </div>
       </section>

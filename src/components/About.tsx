@@ -9,8 +9,8 @@ type AboutCounter = {
 
 export default function About() {
   const counters: AboutCounter[] = [
-    { label: "مشتری", value: 1023 },
-    { label: "بارگیری‌ها", value: 5470 },
+    { label: "کاربران فعال", value: 1023 },
+    { label: "پاسخ‌های هوشمند", value: 5470 },
     { label: "رضایت مشتری", value: 3560 },
   ];
 
@@ -76,20 +76,20 @@ export default function About() {
           <div className="row align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
             <div className="col-md-12 col-lg-6 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
               <div className="about-content-left">
-                <h2>سینا همه چیز را برای شما هوشمند می‌کند</h2>
+                <h2>هوش مصنوعی سینا</h2>
                 <p>
-                  با سینا می‌توانید چت‌بات‌های سفارشی، اتوماسیون‌های گفتگومحور و
-                  دستیارهای خاص کسب‌وکار خود را بسازید و بدون نیاز به تیم فنی
-                  توسعه دهید.
+                  سینا تجربه خدمات اینترنت ساتیا را ساده، سریع و قابل دسترس می‌کند. 
+                  از توضیح تعرفه‌ها و بسته‌های اینترنتی گرفته تا راهنمای خرید، پیگیری وضعیت سرویس و پاسخ به سوالات فنی،
+                  سینا در کنار شماست تا بهترین انتخاب را بدون پیچیدگی انجام دهید.
                 </p>
 
                 <ul className="dot-circle pt-3">
-                  <li>پشتیبانی کامل از زبان فارسی و RTL</li>
-                  <li>قابل اتصال به دیتابیس‌ها و CRMهای شما</li>
-                  <li>ارائه پاسخ‌های دقیق بر اساس دانش اختصاصی</li>
-                  <li>آنالیتیکس و گزارش‌های کاربردی برای بهبود</li>
-                  <li>امنیت و حریم خصوصی در سطح سازمانی</li>
-                  <li>راه‌اندازی سریع و بدون دردسر</li>
+                  <li>کمک به انتخاب و مقایسه بسته‌های اینترنت (ADSL، VDSL، فیبرنوری و وایرلس)</li>
+                  <li>اطلاع از تعرفه‌ها، سرعت‌ها و حجم‌های مختلف</li>
+                  <li>پیگیری وضعیت سرویس، مصرف و اعتبار باقی‌مانده</li>
+                  <li>راهنمای خرید، تمدید و ارتقاء سرویس</li>
+                  <li>ثبت گزارش مربوط به مسائل شهری در سامانه ۱۳۷</li>
+                  <li>اطلاع از تراکنش‌ها، پرداخت‌ها و رسیدها</li>
                 </ul>
 
                 <div className="row pt-3">
@@ -127,7 +127,7 @@ export default function About() {
               <div className="about-content-right text-center">
                 <img
                   src="/assets/img/app-mobile-image-2.png"
-                  alt="درباره ما"
+                  alt="کمک اینترنتی با سینا"
                   className="img-fluid"
                 />
               </div>
@@ -143,7 +143,7 @@ export default function About() {
               <div className="text-center text-lg-end">
                 <img
                   src="/assets/img/about-us.png"
-                  alt="ساخت دستیار هوشمند با سینا AI"
+                  alt="هوش مصنوعی اینترنت"
                   className="img-fluid"
                   style={{
                     maxWidth: '100%',
@@ -157,20 +157,20 @@ export default function About() {
             <div className="col-12 col-lg-6">
               <div style={{ paddingRight: '100px', paddingLeft: '20px' }}>
                 <h2 className="mb-5 text-4xl lg:text-5xl font-bold leading-tight">
-                  به راحتی دستیارهای هوشمند بسازید
+                  راهنمای کامل خدمات اینترنت ساتیا
                 </h2>
                 <p className="text-lg lg:text-xl text-gray-700 mb-5 leading-relaxed">
-                  سینا AI ابزارهای آماده‌ای برای ساخت، تست و دیپلوی چت‌بات و دستیارهای سازمانی دارد.
+                  سینا اطلاعات جامع و به‌روز از همه سرویس‌های اینترنتی ساتیا ارائه می‌دهد تا انتخاب، مدیریت و استفاده از سرویس برای شما راحت‌تر شود.
                 </p>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  همه چیز به‌صورت drag & drop قابل ساختن است؛ از سناریوهای ساده تا اتوماسیون‌های پیچیده.
+                  چه دنبال تعرفه‌ها باشی، چه پیگیری مصرف، تمدید و خرید، یا دریافت پشتیبانی — سینا همیشه همراه شماست.
                 </p>
 
                 <ul className="dot-circle space-y-4 mb-10 text-lg">
-                  <li>بدون نیاز به کدنویسی</li>
-                  <li>قابل یادگیری برای تیم‌های غیر فنی</li>
-                  <li>اتصال به منابع داده شما</li>
-                  <li>دیپلوی سریع روی وب و پیام‌رسان‌ها</li>
+                  <li>پوشش کامل اطلاعات تعرفه و بسته‌ها</li>
+                  <li>سوالات فنی و پشتیبانی پایه</li>
+                  <li>اطلاعات درباره وضعیت سرویس شما</li>
+                  <li>پاسخ به سوالات متداول اینترنتی</li>
                 </ul>
 
                 <div className="action-btns mt-4">
