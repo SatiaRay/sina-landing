@@ -5,7 +5,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Features from "@/components/Features";
 import Process from "@/components/Process";
-import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -20,7 +19,6 @@ export default function LandingPage() {
         <About />
         <Features />
         <Process />
-        <Pricing />
         <Testimonials />
         <Contact />
       </main>

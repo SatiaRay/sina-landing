@@ -128,7 +128,7 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item ms-lg-2 mt-2 mt-lg-0">
-                <a href="/demo" className="btn nav-cta nav-cta-ghost">
+                <a href="#demo" className="btn nav-cta nav-cta-ghost">
                   دمو زنده
                 </a>
               </li>

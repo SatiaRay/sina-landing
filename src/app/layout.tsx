@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sina.ai"),
   title: "Sina | هوش مصنوعی سینا",
   description: "سینا AI — پلتفرم ساخت دستیارهای هوشمند برای کسب‌وکارها",
   openGraph: {

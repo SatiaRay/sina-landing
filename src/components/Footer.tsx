@@ -104,7 +104,7 @@ export default function Footer() {
                 <div className="col-sm-6 col-md-3 mb-4">
                   <h6 className="text-uppercase text-white">سایر</h6>
                   <ul className="list-unstyled">
-                    <li><a className="text-white" href="/demo">دمو زنده</a></li>
+                    <li><a className="text-white" href="demo">دمو زنده</a></li>
                   </ul>
                 </div>
 
