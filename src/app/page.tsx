@@ -8,6 +8,7 @@ import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Pricing from "@/components/Pricing";
 
 export default function LandingPage() {
   return (
@@ -19,6 +20,7 @@ export default function LandingPage() {
         <About />
         <Features />
         <Process />
+        <Pricing />
         <Testimonials />
         <Contact />
       </main>
